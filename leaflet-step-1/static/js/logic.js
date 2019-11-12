@@ -13,7 +13,6 @@ legend.onAdd = function () {
 
     var div = L.DomUtil.create('div', 'info legend'),
         grades = [1, 2, 3, 4, 5],
-        labels = [];
 
     for (var i = 0; i < grades.length; i++) {
         div.innerHTML += '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
